@@ -1,0 +1,24 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100vw;
+}
+
+.nav-bar-right-section {
+  padding: 0.5rem;
+}
+
+.nav-bar-right-section a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  color: #dc2f02;
+  cursor: pointer;
+}
