@@ -15,7 +15,7 @@ const SideBar = () => {
         >
           Installation
         </NavLink>
-        <NavLink className="sidebar-items" style={getActiveStyle} to="/avatar">
+        <NavLink className="sidebar-items" style={getActiveStyle} to="/components/avatar">
           Avatar
         </NavLink>
         <NavLink className="sidebar-items" style={getActiveStyle} to="/alert">

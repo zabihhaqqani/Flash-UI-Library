@@ -9,5 +9,11 @@
     color: black;
     text-decoration: none;
     font-size: larger;
+    font-weight: bold;
     padding: 0.5rem 0rem;
+}
+
+.sidebar-container-main{
+    display: flex;
+   
 }
