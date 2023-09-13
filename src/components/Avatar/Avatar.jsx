@@ -1,11 +1,9 @@
-import "./Avatar.css"
+import "./Avatar.css";
 
-const Avatar = () => {
+export const ImageAvatar = ({ size, imgName, src }) => {
   return (
-    <div >
-      
+    <div className={`circular-avatar-${size}`}>
+      <img src={src} alt={imgName} className={`img-avatar`} />
     </div>
   );
 };
-
-export default Avatar;
