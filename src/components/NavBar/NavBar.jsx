@@ -50,28 +50,35 @@ const NavBar = () => {
 
         {searchTerm && (
           <div className="search-list">
-            {componentsList?.length>0?<>{componentsList.map(
-              (component, index) =>
-                searchTerm && (
-                  <span
-                    key={index}
-                    className="search-item"
-                    onClick={() =>
-                      navigate(`/components/${component.toLowerCase()}`)
-                    }
-                  >
-                    {component} 
-                  </span>
-                )
-            )}</>:"component not found!"}
-            
+            {componentsList?.length > 0 ? (
+              <>
+                {componentsList.map(
+                  (component, index) =>
+                    searchTerm && (
+                      <span
+                        key={index}
+                        className="search-item"
+                        onClick={() =>
+                          navigate(`/components/${component.toLowerCase()}`)
+                        }
+                      >
+                        {component}
+                      </span>
+                    )
+                )}
+              </>
+            ) : (
+              "component not found!"
+            )}
           </div>
         )}
       </div>
       <div className="nav-bar-right-section">
         <a href="/">Home</a>
         <a href="/components">Components</a>
-        <i className="fab fa-github fa-lg" onClick={() => navigate("")}></i>
+        <a href="https://github.com/zabihhaqqani/Flash-UI-Library">
+          <i className="fab fa-github fa-lg"></i>
+        </a>
       </div>
     </nav>
   );
