@@ -1,0 +1,68 @@
+.button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-link {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.button-link:hover {
+  text-decoration: underline;
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btn-primary {
+  background-color: rgba(255, 0, 0, 0.788);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: rgba(0, 0, 255, 0.911);
+  color: white;
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.floating-button {
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.479);
+  cursor: pointer;
+  margin: 0.5rem;
+  font-size: 1.25rem;
+  padding: 1rem;
+  line-height: 25px;
+}
+
+.icon-button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.icon-button i {
+  padding: 0.5rem;
+  padding-left: 0rem;
+}

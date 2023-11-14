@@ -1,0 +1,30 @@
+.components-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.heading-components {
+  text-align: center;
+  margin: 1rem;
+}
+
+.component-item {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+  padding: 0.5rem;
+  background-color: #f028353b;
+  color: #f02836;
+  margin: 1rem;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.component-item:hover{
+    background-color: #f02836;
+    color: white;
+    transition: 0.25s;
+}

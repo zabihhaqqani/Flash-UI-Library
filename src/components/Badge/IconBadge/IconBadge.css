@@ -1,0 +1,21 @@
+.icon {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 30px;
+}
+
+.icon-badge {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  right: 2px;
+  top: -3px;
+  background-color: #ff5733;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2.5px 8px;
+  font-size: 12px;
+}

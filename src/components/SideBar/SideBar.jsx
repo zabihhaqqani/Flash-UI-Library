@@ -8,39 +8,39 @@ const SideBar = () => {
   return (
     <div>
       <div className="sidebar-container">
-        <NavLink
+        {/* <NavLink
           className="sidebar-items"
           style={getActiveStyle}
           to="/installation"
         >
           Installation
-        </NavLink>
+        </NavLink> */}
         <NavLink className="sidebar-items" style={getActiveStyle} to="/components/avatar">
           Avatar
         </NavLink>
-        <NavLink className="sidebar-items" style={getActiveStyle} to="/alert">
+        <NavLink className="sidebar-items" style={getActiveStyle} to="/components/alert">
           Alert
         </NavLink>
-        <NavLink className="sidebar-items" style={getActiveStyle} to="/badge">
+        <NavLink className="sidebar-items" style={getActiveStyle} to="/components/badge">
           Badge
         </NavLink>
-        <NavLink className="sidebar-items" style={getActiveStyle} to="/button">
+        <NavLink className="sidebar-items" style={getActiveStyle} to="/components/button">
           Button
         </NavLink>
-        <NavLink className="sidebar-items" style={getActiveStyle} to="/card">
+        <NavLink className="sidebar-items" style={getActiveStyle} to="/components/card">
           Card
         </NavLink>
         <NavLink
           className="sidebar-items"
           style={getActiveStyle}
-          to="/headings"
+          to="/components/headings"
         >
           Headings
         </NavLink>
-        <NavLink className="sidebar-items" style={getActiveStyle} to="/text">
+        <NavLink className="sidebar-items" style={getActiveStyle} to="/components/text">
           Text
         </NavLink>
-        <NavLink className="sidebar-items" style={getActiveStyle} to="/image">
+        <NavLink className="sidebar-items" style={getActiveStyle} to="/components/image">
           Image
         </NavLink>
       </div>

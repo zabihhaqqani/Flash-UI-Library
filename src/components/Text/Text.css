@@ -1,0 +1,23 @@
+.text {
+  margin: 0.25rem 0rem;
+}
+
+.text-xl {
+  font-size: 20px;
+}
+
+.text-lg {
+  font-size: 18px;
+}
+
+.text-m {
+  font-size: 16px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-xs {
+  font-size: 12px;
+}
