@@ -9,7 +9,7 @@ export const Alert = ({ type, message }) => {
   } else if (type === "info") {
     alert = <i className="fas fa-info-circle"></i>;
   } else if (type === "error"){
-    alert = <i class="fas fa-times"></i>
+    alert = <i className="fas fa-times"></i>
   }
 
   return (

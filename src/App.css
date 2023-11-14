@@ -8,3 +8,34 @@
 }
 
 
+/* Create a very thin scrollbar on the right side */
+::-webkit-scrollbar {
+  width: 6px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color (gray) */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color (gray) */
+  border: 2px solid #fff; /* Thumb border (white) */
+  border-radius: 3px;
+}
+
+/* For Firefox */
+.scrollbar {
+  width: 6px; /* Adjust the width as needed */
+}
+
+.scrollbar-thumb {
+  background: #888; /* Thumb color (gray) */
+  border: 2px solid #fff; /* Thumb border (white) */
+  border-radius: 3px;
+}
+
+/* For Internet Explorer */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1; /* Thumb and track color (gray) */
+}
