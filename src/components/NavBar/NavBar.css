@@ -4,22 +4,22 @@
   padding: 0.5rem;
   justify-content: space-between;
   box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
-
-
+  background-color: #f02836;
 }
 
 .nav-bar-right-section {
   padding: 0.5rem;
+  color: white;
 }
 
 .nav-bar-right-section a {
   padding: 0.5rem;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .logo {
-  color: #f02836;
+  color: white;
   cursor: pointer;
   margin-left: 1rem;
 }
@@ -68,5 +68,4 @@
   .search-bar {
     display: none;
   }
-  
 }

@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 /* Create a very thin scrollbar on the right side */
 ::-webkit-scrollbar {
   width: 6px; /* Adjust the width as needed */
@@ -142,7 +141,7 @@ body {
   }
 
   a {
-    font-size: 0.875rem;
+    font-size: 16px;
   }
   
 

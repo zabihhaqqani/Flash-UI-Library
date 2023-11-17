@@ -75,7 +75,7 @@ const NavBar = () => {
       </div>
       <div className="nav-bar-right-section">
         <a href="/">Home</a>
-        <a href="/components">Components</a>
+        <a href="/components">Docs</a>
         <a href="https://github.com/zabihhaqqani/Flash-UI-Library">
           <i className="fab fa-github fa-lg"></i>
         </a>

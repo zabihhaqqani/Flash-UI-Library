@@ -12,6 +12,7 @@ import Texts from "./documentation/Text/Text";
 import Images from "./documentation/Image/Image";
 import Components from "./pages/ComponentPage/Components";
 import Home from "./pages/Home/Home";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const location = useLocation();
@@ -21,7 +22,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <div className={showSideBar ? "main-container" : "main-container-without-sidebar"}>
+      <div
+        className={
+          showSideBar ? "main-container" : "main-container"
+        }
+      >
         {showSideBar && <SideBar />}
         <Routes>
           <Route path="/" element={<Home />} />
@@ -36,6 +41,7 @@ function App() {
           <Route path="/components/image" element={<Images />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

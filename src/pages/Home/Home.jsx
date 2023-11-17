@@ -23,7 +23,7 @@ const Home = () => {
         </p>
 
         <button className="home-button" onClick={() => navigate("/components")}>
-          Let's Start
+          Let's Start <i className="fas fa-bolt"></i>
         </button>
       </div>
     </div>
