@@ -2,9 +2,9 @@ import React from "react";
 
 const FloatingAction = ({ icon }) => {
   return (
-    <div>
-      <i className={`${icon} floating-button`}></i>
-    </div>
+    <button className="floating-button">
+      <i className={`${icon} floating-button-icon`}></i>
+    </button>
   );
 };
 

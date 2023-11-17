@@ -18,7 +18,7 @@ const Buttons = () => {
 
         <h2>Primary Buttons</h2>
         <div className="image-right-container">
-          <Button type="primary" text="Cancel" />
+          <Button type="primary" text="Cancel"  />
           <Button type="secondary" text="Okay" />
           <Button type="success" text="Submit" />
           <Button type="warning" text="Warning" />
@@ -33,7 +33,7 @@ const Buttons = () => {
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<Button type="primary" text="Cancel" />
 <Button type="secondary" text="Okay" />
 <Button type="success" text="Submit" />
@@ -58,7 +58,7 @@ const Buttons = () => {
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<LinkButton text="Home" url="/" color="black"/>
 <LinkButton text="Components" url="/components" color="blue"/>
 <LinkButton text="Alert" url="/components/alert" color="gray" />
@@ -69,7 +69,7 @@ const Buttons = () => {
 
         <h2>Icon Buttons</h2>
         <div className="image-right-container">
-          <IconButton text="Save" icon="fas fa-save fa-lg" />
+          <IconButton text="Save" icon="fas fa-save fa-lg" className="custom-style-syntax-highlighter"/>
           <IconButton
             text="Enable Captions"
             icon="far fa-closed-captioning fa-lg"
@@ -87,7 +87,7 @@ const Buttons = () => {
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<Button type="primary" text="Cancel" />
 <Button type="secondary" text="Okay" />
 <Button type="success" text="Submit" />
@@ -113,7 +113,7 @@ const Buttons = () => {
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<FloatingAction icon="fas fa-share" />
 <FloatingAction icon="far fa-copy" />
 <FloatingAction icon="fas fa-trash-alt" />

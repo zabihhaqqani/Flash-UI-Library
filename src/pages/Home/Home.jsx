@@ -19,7 +19,7 @@ const Home = () => {
         <p className="app-description">
           FlashUI is a component library designed to streamline the
           development of user interfaces. Lightweight and easy to integrate,
-          offering a variety of UI elements.
+          offering a variety of UI elements. Build your web apps with the speed of flash.
         </p>
 
         <button className="home-button" onClick={() => navigate("/components")}>

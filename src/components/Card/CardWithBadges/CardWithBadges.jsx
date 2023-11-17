@@ -21,7 +21,7 @@ const CardWithBadges = ({
       </div>
       <div>
         <button className="cart-btn"><i className="fas fa-shopping-cart"></i> ADD TO CART</button>
-        <button className="buy-btn">🗲 BUY NOW</button>
+        <button className="buy-btn"><i className="fas fa-bolt"></i>  BUY NOW</button>
       </div>
     </div>
   );

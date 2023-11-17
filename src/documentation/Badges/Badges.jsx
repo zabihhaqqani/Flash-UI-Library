@@ -30,7 +30,7 @@ const Badges = () => {
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark}  className="custom-style-syntax-highlighter">
             {`<IconBadge icon="fas fa-shopping-cart fa-lg" number="5" />
 <IconBadge icon="fas fa-user-circle fa-lg" number="3"/>
 <IconBadge icon="fab fa-youtube fa-lg" number="8"/>
@@ -60,7 +60,7 @@ const Badges = () => {
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark}  className="custom-style-syntax-highlighter">
             {`<AvatarBadge size="xl" name="Pikachu" src={Pikachu} color="red" />
 <AvatarBadge size="lg" name="Pikachu" src={Pikachu} color="green" />
 <AvatarBadge size="sm" name="Pikachu" src={Pikachu} color="blue" />

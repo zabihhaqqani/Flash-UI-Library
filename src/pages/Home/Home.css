@@ -5,21 +5,21 @@
 }
 
 .main-logo {
-  width: 30%;
+  width: 400px;
   height: auto;
-  margin: 0.5rem;
+  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .logo-name {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .app-description {
   font-size: medium;
-  width: 50%;
-  margin: 0.5rem;
+  margin: 1rem;
   text-align: center;
-  color: #388cc0;
+  color: #2453df;
 }
 
 .home-button {
@@ -30,10 +30,20 @@
   border-radius: 5px;
   cursor: pointer;
   margin: 0.5rem;
+  width: 200px;
 }
 
 .home-button:hover {
   background-color: #ff0011;
   transition: 0.25s;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 2px;
+}
+
+@media (max-width:768px){
+  .main-logo {
+    width: 350px;
+    height: auto;
+    margin: 1rem;
+    padding: 0.5rem;
+  }
 }

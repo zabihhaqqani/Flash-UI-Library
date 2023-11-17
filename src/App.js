@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <div className={showSideBar ? "main-container" : ""}>
+      <div className={showSideBar ? "main-container" : "main-container-without-sidebar"}>
         {showSideBar && <SideBar />}
         <Routes>
           <Route path="/" element={<Home />} />

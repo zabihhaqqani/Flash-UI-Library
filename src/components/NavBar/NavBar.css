@@ -4,7 +4,8 @@
   padding: 0.5rem;
   justify-content: space-between;
   box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
-  position: sticky;
+
+
 }
 
 .nav-bar-right-section {
@@ -51,12 +52,21 @@
   cursor: pointer;
   padding: 0.25rem;
   z-index: 999;
-
 }
 
 .search-item:hover {
   transition: 0.25s;
-  background-color: #F02836;
+  background-color: #f02836;
   color: white;
   border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .nav-bar-right-section {
+    /* display: none; */
+  }
+  .search-bar {
+    display: none;
+  }
+  
 }

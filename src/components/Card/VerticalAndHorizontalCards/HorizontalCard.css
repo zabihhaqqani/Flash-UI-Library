@@ -52,10 +52,13 @@
   color: white;
   font-weight: 550;
   margin-left: 0px;
+  width: fit-content;
 }
 
 .cart-btn {
   background-color: #ff9f00;
+  width: 160px;
+
 }
 
 .buy-btn {

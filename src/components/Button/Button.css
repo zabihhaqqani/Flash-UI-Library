@@ -4,6 +4,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: 0px;
 }
 
 .button-link {
@@ -13,6 +14,7 @@
   border-radius: 5px;
   cursor: pointer;
   color: white;
+  margin-left: 0px;
 }
 
 .button-link:hover {
@@ -45,13 +47,18 @@
 
 .floating-button {
   border: none;
+  padding: 0.25rem;
   border-radius: 50%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.479);
-  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  align-items: center;
   margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.floating-button-icon {
   font-size: 1.25rem;
-  padding: 1rem;
-  line-height: 25px;
 }
 
 .icon-button {
@@ -60,6 +67,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: 0px;
 }
 
 .icon-button i {

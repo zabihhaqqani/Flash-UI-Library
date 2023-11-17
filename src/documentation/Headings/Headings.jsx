@@ -30,7 +30,7 @@ const Headings = () => {
           <p>Just change the text and type as per your requirement.</p>
         </div>
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<Heading text="This is extra large heading" type="h1"/>
 <Heading text="This is large heading" type="h2"/>
 <Heading text="This is medium heading" type="h3"/>

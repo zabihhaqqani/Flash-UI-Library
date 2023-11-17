@@ -7,7 +7,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 /* Create a very thin scrollbar on the right side */
 ::-webkit-scrollbar {
   width: 6px; /* Adjust the width as needed */
@@ -34,8 +33,126 @@
   border-radius: 3px;
 }
 
+.main-container {
+  display: flex;
+}
+
+.image-right-container {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0rem;
+  flex-wrap: wrap;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.image-avatar {
+  margin: 1rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.image-container p {
+  font-size: small;
+}
+
+.title {
+  padding: 0.75rem 0rem;
+  margin: 0.5rem 0rem;
+  margin-bottom: 0rem;
+}
+
+.instructions-container {
+  padding: 0.5rem 0rem;
+}
+
+.instructions-container p {
+  padding: 0.5rem 0rem;
+}
+
 /* For Internet Explorer */
 html {
   scrollbar-width: thin;
   scrollbar-color: #888 #f1f1f1; /* Thumb and track color (gray) */
+}
+
+body {
+  font-size: 1rem; /* Default font size */
+  margin: 0;
+  padding: 0;
+}
+
+.custom-style-syntax-highlighter {
+  width: fit-content;
+  margin: 0.5rem 0rem;
+  padding: 0.5rem;
+}
+/* Laptop or Web Size Styles */
+@media (min-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile Size Styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.875rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 0.25rem 0rem;
+  }
+
+  a {
+    font-size: 0.875rem;
+  }
+  
+
+  .main-container {
+    display: block;
+  }
+
+  .custom-style-syntax-highlighter {
+    width: 100%;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+  }
 }

@@ -26,7 +26,7 @@ const Images = () => {
         <div className="instructions-container">
           <h4>How to use the Responsive Image component?</h4>
           <p>
-            Just change the name of your requirement and replace withe imgSrc
+            Just change the name of your requirement and replace imgSrc
             with your url.
           </p>
         </div>
@@ -50,12 +50,12 @@ name="lianYu"/>`}
         <div className="instructions-container">
           <h4>How to use the Rounded Image component?</h4>
           <p>
-            Just change the name of your requirement and replace withe imgSrc
+            Just change the name of your requirement and replace imgSrc
             with your url.
           </p>
         </div>
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<RoundedImage
 imgSrc="https://fastly.picsum.photos/id/13/2500
 /1667.jpghmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s"

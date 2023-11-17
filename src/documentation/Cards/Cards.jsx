@@ -39,7 +39,7 @@ const Cards = () => {
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<CardWithBadges
 imgSrc="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile
 /4/x/0-original-imagtnqjjfgxzpz4.jpeg?q=70"
@@ -72,7 +72,7 @@ discount="52% off"/>`}
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<CardWithDismiss
 imgSrc="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/x/0
 -original-imagtnqjjfgxzpz4.jpeg?q=70"
@@ -106,7 +106,7 @@ discount="52% off"/>`}
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<Button type="primary" text="Cancel" />
 <Button type="secondary" text="Okay" />
 <Button type="success" text="Submit" />
@@ -134,7 +134,7 @@ discount="52% off"/>`}
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<TextOnlyCard
 name="samsung"
 title=" Samsung Galaxy S21 FE 5G with Snapdragon 888 (Navy, 128 GB)"
@@ -165,7 +165,7 @@ discount="52% off"/>`}
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<HorizontalCard
 imgSrc="https://rukminim2.flixcart.com/image/416/416/xif0q
 /mobile/4/x/0-original-imagtnqjjfgxzpz4jpeg?q=70"
@@ -198,7 +198,7 @@ discount="52% off"/>`}
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<VertialCard
 imgSrc="https://rukminim2.flixcart.com/image/416/416/
 xif0q/mobile/4/x/0-original-imagtnqjjfgxzpz4.jpeg?q=70"
@@ -231,7 +231,7 @@ discount="52% off"/>`}
         </div>
 
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark} className="custom-style-syntax-highlighter">
             {`<CardWithShadow
 imgSrc="https://rukminim2.flixcart.com/image/
 416/416/xif0q/mobile/4/x/0/-original-imagtnqjjfgxzpz4.jpeg?q=70"

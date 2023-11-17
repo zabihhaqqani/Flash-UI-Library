@@ -1,15 +1,15 @@
 .responsive-image {
   border-radius: 5px;
   height: auto;
-  width: 40%;
+  width: 80%;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
   object-fit: cover;
   margin: 1rem 0rem;
 }
 
 .rounded-image {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0.5rem;

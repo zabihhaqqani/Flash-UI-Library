@@ -25,7 +25,7 @@ const Alerts = () => {
           <p>Just change the message as per your requirement.</p>
         </div>
         <div className="highlight-container">
-          <SyntaxHighlighter language="jsx" style={atomOneDark}>
+          <SyntaxHighlighter language="jsx" style={atomOneDark}  className="custom-style-syntax-highlighter">
             {`<Alert type="success" message="Operation successful!" />
 <Alert type="warning" message="Please be cautious." />
 <Alert type="error" message="An error occurred." />
